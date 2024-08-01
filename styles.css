@@ -64,3 +64,8 @@ body {
     opacity: 0;
     transition: opacity 0.5s ease;
 }
+
+.letter {
+    width: 500px; /* Increase the width here */
+    /* Other styles remain unchanged */
+}
