@@ -1,8 +1,14 @@
 function showLetter() {
     var letter = document.getElementById("letter");
+    var envelope = document.getElementById("envelope");
+
+    // Make the envelope disappear
+    envelope.style.opacity = 0;
+
+    // Reveal the letter
     if (letter.style.height === "0px" || letter.style.height === "") {
-        letter.style.height = "100px"; // Adjust this value to fit the content of your letter
         setTimeout(function() {
+            letter.style.height = "100px"; // Adjust this value to fit the content of your letter
             letter.firstElementChild.style.opacity = 1;
         }, 300);
     } else {
