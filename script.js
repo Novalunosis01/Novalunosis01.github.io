@@ -8,7 +8,7 @@ function showLetter() {
     // Reveal the letter
     if (letter.style.height === "0px" || letter.style.height === "") {
         setTimeout(function() {
-            letter.style.height = "100px"; // Adjust this value to fit the content of your letter
+            letter.style.height = "600px"; // Adjust this value to fit the content of your letter
             letter.firstElementChild.style.opacity = 1;
         }, 300);
     } else {
